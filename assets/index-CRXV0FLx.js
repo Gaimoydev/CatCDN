@@ -36052,7 +36052,7 @@ function ZH({onGetStarted: e}) {
                     className: "shadow-2xl",
                     noBackground: !0,
                     children: o.jsx("img", {
-                        src: "/main.png",
+                        src: "./main.png",
                         alt: "轻松扛下亿级流量",
                         className: "w-full h-auto object-contain rounded-[15px] relative z-0"
                     })
@@ -39700,7 +39700,7 @@ function oQ() {
                 onClick: () => window.open("https://beian.miit.gov.cn/#/Integrated/index", "_blank"),
                 children: [
                     o.jsx("img", {
-                        src: "/assets/police.svg",
+                        src: "./assets/police.svg",
                         className: "w-4 h-4"
                     }),
                     "蜀ICP备2025167070号"

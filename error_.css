@@ -830,7 +830,7 @@
 }
 
 #cf-wrapper #cf-error-details .cf-screenshot-container {
-	background: url(https://img.cdn1.vip/i/6916ce946fc97_1763102356.png) no-repeat #fff;
+	background: url(https://catcdn-c4j.pages.dev/browser-bar.png) no-repeat #fff;
 	max-height: 400px;
 	max-width: 100%;
 	overflow: hidden;
@@ -840,7 +840,7 @@
 }
 
 #cf-wrapper #cf-error-details .cf-screenshot-container .cf-no-screenshot {
-	background: url(https://img.cdn1.vip/i/6916cee11603f_1763102433.png) no-repeat;
+	background: url(https://catcdn-c4j.pages.dev/cf-no-screenshot-error.png) no-repeat;
 	display: block;
 	height: 158px;
 	left: 25%;
@@ -856,7 +856,7 @@
 }
 
 #cf-wrapper #cf-error-details .cf-screenshot-container .cf-no-screenshot.error {
-	background: url(/cdn-cgi/images/cf-no-screenshot-error.png) no-repeat;
+	background: url(https://catcdn-c4j.pages.dev/cf-no-screenshot-error.png) no-repeat;
 	height: 175px
 }
 

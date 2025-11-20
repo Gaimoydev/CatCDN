@@ -35642,9 +35642,19 @@ function ov() {
                         }) : o.jsxs(o.Fragment, {
                             children: [
                                 o.jsx(te, {
-                                    onClick: () => { window.location.href = "https://dashboard.catcdn.cn"; },
+                                    onClick: () => { window.open("https://dashboard.catcdn.cn", "_blank"); },
                                     className: "bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700",
                                     children: "控制面板"
+                                }),
+                                o.jsx(te, {
+                                    onClick: () => { window.open("https://status.catcdn.cn/", "_blank"); },
+                                    className: "bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700",
+                                    children: "状态页面"
+                                }),
+                                o.jsx(te, {
+                                    onClick: () => { window.open("https://info.catcdn.cn/", "_blank"); },
+                                    className: "bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700",
+                                    children: "事件中心"
                                 })
                             ]
                         })
